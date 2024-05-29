@@ -1,0 +1,154 @@
+*{
+      padding: 0;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+     background-color: black;
+}
+.main{
+
+     background-image: url(asset/images/bg.jpg);
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: max(1200px,100vw);
+     height: 70vh;
+     position: relative;
+     
+}
+.main .box{
+
+     height: 70vh;
+     width: 100%;
+ opacity: 0.69;
+ position: absolute;
+ top: 0;
+     background-color: black;
+}
+nav{
+      display: flex;
+      max-width: 60vw;
+      margin: auto;
+      justify-content: space-between;
+      align-items: center;
+      height: 62px;
+      
+}
+nav img {
+
+    color: red;
+    width: 120px;
+    position:relative;
+    z-index: 10;
+}
+nav button {
+
+    position: relative;
+    z-index: 10;
+
+}
+.content{
+     
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:calc(100%-62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0px 30px;
+    margin: 100px;
+}
+.content> :first-child{
+     font-size: 48px;
+     font-weight: bolder;
+     text-align: center;
+}
+.content> :nth-child(2)
+{
+     font-size: 20px;
+     font-weight: 200;
+     text-align: center;
+}
+.content> :nth-child(3)
+{
+     font-size: 20px;
+     font-weight: 200;
+     text-align: center;
+}
+.line-spereation{
+    height: 7px;
+    background-color: darkgray;
+    opacity: 0.3;
+
+}
+.btn
+{ 
+      padding: 3px 8px;
+      background-color: rgba(250, 247, 247, 0);
+      border: 1px solid wheat;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+      font-weight: 400px;
+
+ 
+}
+
+.btn-red{
+       background-color: red;
+       color: white;
+       padding: 3px 24px;
+       border-radius: 4px;
+       font-size: 19px;
+}
+.btn-red-sm{
+      
+     background-color: red;
+     color: white;
+   }
+
+.main input{
+     
+     padding: 7px 15px 8px 14px;
+     border-radius: 4px;
+     font-size: 900px;
+     font-size: 12px;
+     color: white;
+     background-color: rgba(23,23,23,0.7);
+     border: 1px solid rgba(243, 241, 241, 0.2);
+}
+.hero-button{
+       display: flex;
+       justify-content: center;
+       align-items: center;   
+       gap: 16px;             
+}
+.first{
+        
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     max-width: 70vw;
+     color: white;
+     margin: auto;
+}
+.secImg{
+       position: relative;
+}
+.secImg img{
+     width: 440px;
+     z-index: 10px;
+     
+}
+.secImg video{
+     width: 310px;
+      position: absolute;
+      top: 70px;
+      left: 60px;
+   
+}
+
+
