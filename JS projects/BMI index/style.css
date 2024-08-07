@@ -4,6 +4,11 @@ form {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    background-color: rgb(221, 130, 130);
 
 
+}
+
+body {
+    background-color: aqua;
 }
