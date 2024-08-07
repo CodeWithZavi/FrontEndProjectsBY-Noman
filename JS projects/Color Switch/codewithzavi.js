@@ -13,10 +13,10 @@ buttons.forEach(function (button) {  // read every button
             case 'yellow':
                 body.style.backgroundColor = e.target.id;
                 break;
-            case 'grey':
+            case 'blue':
                 body.style.backgroundColor = e.target.id;
                 break;
-            case 'grey':
+            case 'red':
                 body.style.backgroundColor = e.target.id;
                 break;
         }
