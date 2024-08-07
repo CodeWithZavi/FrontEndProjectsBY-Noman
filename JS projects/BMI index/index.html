@@ -9,12 +9,10 @@
 </head>
 
 <body>
-
     <h1>BY codewithzavi</h1>
     <div class="container">
         <div class="card">
-            <form action="">
-
+            <form id="bmi-form">
                 <h1>BMI Calculator</h1>
                 <label for="height">Height in CM
                     <input type="text" name="height" id="height">
@@ -23,9 +21,9 @@
                 <label for="weight">Weight in KG
                     <input type="text" name="weight" id="weight">
                 </label>
-                <button type="button">Calculate</button>
+                <button type="submit">Calculate</button>
                 <label for="bmi">BMI:
-                    <input type="text" name="bmi" id="bmi">
+                    <input type="text" name="bmi" id="bmi" readonly>
                 </label>
                 <div id="weight-guide">
                     <h3>BMI Weight Guide</h3>
