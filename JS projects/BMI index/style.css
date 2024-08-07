@@ -1,42 +1,60 @@
 body {
-    background-color: aqua;
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     perspective: 1000px;
 }
 
 h1 {
-    text-shadow: 1px 1px 5px #000;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    background: linear-gradient(145deg, #2193b0, #6dd5ed);
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    transform: rotateY(-10deg) rotateX(5deg);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding: 40px;
+    color: white;
+    max-width: 400px;
+    width: 100%;
+}
+
+.card:hover {
+    transform: rotateY(0deg) rotateX(0deg);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
 }
 
 form {
     display: flex;
-    gap: 23px;
     flex-direction: column;
+    gap: 20px;
     text-align: center;
-    align-items: center;
-    background: linear-gradient(145deg, #e53935, #c62828);
-    color: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 10px 10px 20px #c62828, -10px -10px 20px #ff5252;
-    transform: rotateY(-10deg) rotateX(5deg);
-    font-size: 20px;
-    transition: transform 0.5s;
 }
 
-form:hover {
-    transform: rotateY(0deg) rotateX(0deg);
+h1 {
+    padding: 23px;
 }
 
 label {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    align-items: center;
+    gap: 5px;
 }
 
 input {
@@ -44,28 +62,39 @@ input {
     margin-top: 5px;
     border: none;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px #bdbdbd, -5px -5px 10px #ffffff;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px rgba(255, 255, 255, 0.7);
+    width: 100%;
+    max-width: 250px;
+    font-size: 16px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #d32f2f;
+    background: linear-gradient(145deg, #ff416c, #ff4b2b);
     border: none;
-    border-radius: 10px;
+    border-radius: 25px;
     color: white;
-    box-shadow: 5px 5px 10px #b71c1c, -5px -5px 10px #ff5252;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 button:hover {
-    background-color: #b71c1c;
+    background: linear-gradient(145deg, #ff4b2b, #ff416c);
     transform: translateY(-3px);
 }
 
 #weight-guide {
     background-color: white;
-    color: #b71c1c;
+    color: #333;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px #bdbdbd, -5px -5px 10px #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-size: 14px;
+}
+
+#weight-guide h3 {
+    margin-top: 0;
 }
