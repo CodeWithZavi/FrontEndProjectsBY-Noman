@@ -23,8 +23,8 @@ span {
     background: grey;
 }
 
-#white {
-    background: white;
+#red {
+    background: rgb(241, 10, 10);
 }
 
 #blue {
