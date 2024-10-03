@@ -1,0 +1,16 @@
+html,
+body {
+
+
+    font-family: serif;
+    color: grey;
+    height: 100%;
+    margin: 0;
+    font-weight: 500;
+}
+
+.classBack {
+
+    background-image: url(image1.png);
+    min-height: 100%;
+}
