@@ -1,0 +1,22 @@
+html,
+body {
+
+
+
+    color: gray;
+    height: 100;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18;
+    font-weight: 400;
+    line-height: 1.8em;
+
+
+
+}
+
+.FirstImg {
+
+    background-image: url(image1.png);
+    min-height: 24;
+}
